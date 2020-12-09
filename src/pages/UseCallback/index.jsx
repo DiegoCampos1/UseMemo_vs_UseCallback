@@ -26,8 +26,8 @@ function UseCallback() {
     <div>
       <h3>UseCallback: </h3>
       <div>count: {count}</div>
-      {/* <Button onClick={()=> setCount(prev => prev+1)}></Button> */}
-      <Button onClick={useCallback(()=> setCount(prev => prev+1), [])}></Button>
+      <Button onClick={()=> setCount(prev => prev+1)}></Button>
+      {/* <Button onClick={useCallback(()=> setCount(prev => prev+1), [])}></Button> */}
     </div>
   )
 }
